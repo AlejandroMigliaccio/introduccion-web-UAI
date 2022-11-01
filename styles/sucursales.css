@@ -1,0 +1,31 @@
+.sucursal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sucursal__content {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 2rem;
+    width: 80%;
+}
+
+.sucursal__map {
+    width: 100%;
+    display: flex;
+}
+
+section iframe {
+    width: 80%;
+    margin: 2rem auto;
+    border-radius: 20px 8px;
+    box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.9); }
+
+/*Tablet*/
+@media only screen and (min-width: 1024px) {
+    .sucursal {
+        width: 50%;
+        margin: 0 auto;
+    }
+}

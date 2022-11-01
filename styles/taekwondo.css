@@ -1,0 +1,69 @@
+.taekwondo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.taekwondo img {
+    margin: 3rem 0;
+    width: 12%;
+}
+
+.taekwondo__text {
+    width: 80%;
+}
+
+.taekwondo__text__intro {
+    font-weight: 800;
+    text-align: justify;
+}
+
+.taekwondo__text__desgloce {
+    font-weight: 700;
+    text-align: justify;
+}
+
+.taekwondo__text__choi {
+    text-align: center;
+}
+
+.taekwondo__text__choi img {
+    margin: 2rem 0 0 0;
+    width: 70%;
+}
+
+.taekwondo__text__choi__art {
+    font-size: 10px;
+    font-weight: 500;
+    margin-bottom: 3rem;
+}
+
+@media only screen and (min-width: 1024px) {
+    .taekwondo {
+        margin-bottom: 3rem;
+    }
+
+    .taekwondo__text__intro {
+        font-size: 15px;
+        font-weight: 700;
+    }
+
+    .taekwondo__text__choi {
+        margin: 5rem auto;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        width: 50%;
+    }
+
+    .taekwondo__text__choi__art {
+        text-align: justify;
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    .taekwondo__text__desgloce {
+        font-size: 15px;
+        font-weight: 700;
+    }
+}
