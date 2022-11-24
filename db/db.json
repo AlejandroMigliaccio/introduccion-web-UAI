@@ -1,0 +1,53 @@
+{
+    "products" : [
+        {
+            "id":1,
+            "name": "Dobok",
+            "price":10500,
+            "description":"Unifrome necesario para participar de tus clases",
+            "url":"/images/dobok.jpg"
+        },
+        {
+            "id":2,
+            "name": "Cabezal",
+            "price":8500,
+            "description":"Protedctor de cabeza para alta competicion",
+            "url":"/images/cabezal.jpeg"
+        },
+        {
+            "id":3,
+            "name": "Focos",
+            "price":6590,
+            "description":"Guante foco para practicar tecnicas basicas, precision y reflejos",
+            "url":"/images/focos.jpeg"
+        },
+        {
+            "id":4,
+            "name": "Bolso",
+            "price":15000,
+            "description":"Bolso apmlio para guardar todos tus instrumentos de entrnamiento",
+            "url":"/images/bolso.jpeg"
+        },
+        {
+            "id":5,
+            "name": "Guantes",
+            "price":18599,
+            "description":"Guantes de alta calidad ideal para alta competicion",
+            "url":"/images/guantes.jpeg"
+        },
+        {
+            "id":6,
+            "name": "Libro",
+            "price":8500,
+            "description":"Material de estudio para rendir la seccion de teoria en los examenes de categoria",
+            "url":"/images/libro.jpeg"
+        },
+        {
+            "id":7,
+            "name": "Pantalon Boxero-Fullcontact",
+            "price":7500,
+            "description":"Pantalon de alta clidad, liviano y permite gran comodidad para combates de competencia",
+            "url":"/images/patna.jpg"
+        }
+    ]
+}
